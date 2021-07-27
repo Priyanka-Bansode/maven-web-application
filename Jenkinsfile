@@ -23,12 +23,12 @@ node ('master')
  sh "${mavenHome}/bin/mvn clean package"
  }
  
-  /*
+  
  stage("ExecuteSonarQubeReport")
  {
  sh "${mavenHome}/bin/mvn sonar:sonar"
  }
- 
+ /*
  stage("UploadArtifactsintoNexus")
  {
  sh "${mavenHome}/bin/mvn deploy"
