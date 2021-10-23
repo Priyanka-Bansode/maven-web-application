@@ -3,12 +3,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	
-	<!--------------cnsknksdn------------------>
-	<!--------------hello---------------->
-	
-	<!------------hi------------------->
-	<!---ggjgjerejj---->
-	
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
@@ -127,7 +121,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
+				<version>3.8</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
